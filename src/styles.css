@@ -1,0 +1,160 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.v-line {
+  border-left: 3px solid rgb(100, 98, 98);
+  top: 10px;
+  right: 1px;
+  position: relative;
+  height: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.v-line-white {
+  border-left: 3px solid rgb(249, 249, 249);
+  top: 10px;
+  right: 1px;
+  position: relative;
+  height: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.img-logo {
+  max-height: 80px;
+  align-self: center;
+}
+
+.title {
+  font-size: 30px;
+  font-family: ITC Avant Garde Gothic, LT;
+  align-self: center;
+}
+
+.ico {
+  height: 30px;
+}
+
+.ico-frase {
+  height: 40px;
+}
+
+.header {
+  height: 14%;
+}
+
+.header-secondary {
+  display: flex;
+  justify-content: center;
+  background-color: #2e3e97;
+  height: 15%;
+  max-height: 200px;
+
+
+}
+
+.title {
+  font-size: 30px;
+  font-family: ITC Avant Garde Gothic, LT;
+  align-self: center;
+  color: #ffffff;
+}
+
+.start-bar {
+  height: 20%;
+  max-height: 30px;
+  background-color: #27b052;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  max-height: 80px;
+  height: 10%;
+  background-color: #2b3172;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+ 
+}
+
+img {
+  max-height: 50px;
+  max-width: 188px;
+  align-self: center;
+}
+
+.footer-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+  align-self: center;
+}
+
+.mat-card-title {
+  color: #3081b9;
+}
+
+.login {
+  height: 100%;
+
+}
+
+.mat-card {
+  min-height: 10%;
+  height: 50%;
+  width: 80%;
+}
+
+.white-button {
+  color: #ffffff;
+}
+.accent-button {
+  color: #ffffff;
+  background: #3081b9;
+}
+
+.accent {
+  color: #3081b9;
+}
+
+.content {
+  height: 50%;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+@media screen and (max-height: 1440px) {
+  .content {
+    height: 70%;
+  }
+}
+
+@media screen and (max-height: 1080px) {
+  .content {
+    height: 55%;
+  }
+}
